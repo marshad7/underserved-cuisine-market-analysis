@@ -1,0 +1,22 @@
+# Raw / derived data (not committed)
+data/*
+!data/README.md
+*.parquet
+*.jsonl
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
